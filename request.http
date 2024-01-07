@@ -1,3 +1,15 @@
 @baseUrl = http://localhost:8080
 
-GET {{baseUrl}}/ping
+GET {{baseUrl}}/api/v1/opening
+
+###
+POST {{baseUrl}}/api/v1/opening
+
+###
+DELETE {{baseUrl}}/api/v1/opening
+
+###
+PUT  {{baseUrl}}/api/v1/opening
+
+###
+GET {{baseUrl}}/api/v1/opening
